@@ -1,0 +1,103 @@
+/*
+|--------------------------------------------------------------------------
+| Padding
+|--------------------------------------------------------------------------
+*/
+@for $i from $number_start through $number_end {
+  $i: $i*5;
+  @if $i <= 100{
+    @each $side in $position {
+        .padding-#{$side}-#{$i}px {
+            padding-#{$side}: $i * 1px;
+        }
+    }
+  }
+}
+/*
+|--------------------------------------------------------------------------
+| Padding XS
+|--------------------------------------------------------------------------
+*/
+@media #{$media_xs} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .padding-#{$side}-#{$i}px-xs {
+            padding-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+/*
+|--------------------------------------------------------------------------
+| Padding SM
+|--------------------------------------------------------------------------
+*/
+@media #{$media_sm} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .padding-#{$side}-#{$i}px-sm {
+            padding-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Padding MD
+|--------------------------------------------------------------------------
+*/
+@media #{$media_md} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .padding-#{$side}-#{$i}px-md {
+            padding-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Padding LG
+|--------------------------------------------------------------------------
+*/
+@media #{$media_lg} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .padding-#{$side}-#{$i}px-lg {
+            padding-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Padding XL
+|--------------------------------------------------------------------------
+*/
+@media #{$media_xl} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .padding-#{$side}-#{$i}px-xl {
+            padding-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}

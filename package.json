@@ -1,0 +1,15 @@
+{
+  "name": "scss-utility-classes",
+  "version": "1.0.0",
+  "description": "A small library of utility css classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Waldstein",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+$media_xs: "(max-width: 575px)";
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { ... }
+$media_sm: "(min-width: 576px) and (max-width: 767px)";
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) { ... }
+$media_md: "(min-width: 768px) and (max-width: 991px)";
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+$media_lg: "(min-width: 992px) and (max-width: 1199px)";
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+$media_xl: "(min-width: 1200px)";

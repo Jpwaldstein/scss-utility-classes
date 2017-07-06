@@ -1,0 +1,102 @@
+/*
+|--------------------------------------------------------------------------
+| margin
+|--------------------------------------------------------------------------
+*/
+@for $i from $number_start through $number_end {
+  $i: $i*5;
+  @if $i <= 100{
+    @each $side in $position {
+        .margin-#{$side}-#{$i}px {
+            margin-#{$side}: $i * 1px;
+        }
+    }
+  }
+}
+/*
+|--------------------------------------------------------------------------
+| margin XS
+|--------------------------------------------------------------------------
+*/
+@media #{$media_xs} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .margin-#{$side}-#{$i}px-xs {
+            margin-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+/*
+|--------------------------------------------------------------------------
+| margin SM
+|--------------------------------------------------------------------------
+*/
+@media #{$media_sm} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .margin-#{$side}-#{$i}px-sm {
+            margin-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| margin MD
+|--------------------------------------------------------------------------
+*/
+@media #{$media_md}{
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .margin-#{$side}-#{$i}px-md {
+            margin-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| margin LG
+|--------------------------------------------------------------------------
+*/
+@media #{$media_lg}{
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .margin-#{$side}-#{$i}px-lg {
+            margin-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
+/*
+|--------------------------------------------------------------------------
+| margin XL
+|--------------------------------------------------------------------------
+*/
+@media #{$media_xl} {
+  @for $i from $number_start through $number_end {
+    $i: $i*5;
+    @if $i <= 100{
+      @each $side in $position {
+       .margin-#{$side}-#{$i}px-xl {
+            margin-#{$side}: $i * 1px;
+        } 
+      }
+    }
+  }
+}
