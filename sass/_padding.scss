@@ -4,10 +4,10 @@
 |--------------------------------------------------------------------------
 */
 @for $i from $number_start through $number_end {
-  $i: $i*5;
+  //$i: $i*5;
   @if $i <= 100{
     @each $side in $position {
-        .padding-#{$side}-#{$i}px {
+        .p-#{$side}-#{$i}px {
             padding-#{$side}: $i * 1px;
         }
     }
@@ -20,10 +20,10 @@
 */
 @media #{$media_xs} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .padding-#{$side}-#{$i}px-xs {
+       .p-#{$side}-#{$i}px-xs {
             padding-#{$side}: $i * 1px;
         } 
       }
@@ -37,10 +37,10 @@
 */
 @media #{$media_sm} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .padding-#{$side}-#{$i}px-sm {
+       .p-#{$side}-#{$i}px-sm {
             padding-#{$side}: $i * 1px;
         } 
       }
@@ -55,10 +55,10 @@
 */
 @media #{$media_md} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .padding-#{$side}-#{$i}px-md {
+       .p-#{$side}-#{$i}px-md {
             padding-#{$side}: $i * 1px;
         } 
       }
@@ -73,10 +73,10 @@
 */
 @media #{$media_lg} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .padding-#{$side}-#{$i}px-lg {
+       .p-#{$side}-#{$i}px-lg {
             padding-#{$side}: $i * 1px;
         } 
       }
@@ -91,10 +91,10 @@
 */
 @media #{$media_xl} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .padding-#{$side}-#{$i}px-xl {
+       .p-#{$side}-#{$i}px-xl {
             padding-#{$side}: $i * 1px;
         } 
       }

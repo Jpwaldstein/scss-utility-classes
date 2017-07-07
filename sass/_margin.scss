@@ -4,10 +4,10 @@
 |--------------------------------------------------------------------------
 */
 @for $i from $number_start through $number_end {
-  $i: $i*5;
+  //$i: $i*5;
   @if $i <= 100{
     @each $side in $position {
-        .margin-#{$side}-#{$i}px {
+        .m-#{$side}-#{$i}px {
             margin-#{$side}: $i * 1px;
         }
     }
@@ -20,10 +20,10 @@
 */
 @media #{$media_xs} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .margin-#{$side}-#{$i}px-xs {
+       .m-#{$side}-#{$i}px-xs {
             margin-#{$side}: $i * 1px;
         } 
       }
@@ -37,10 +37,10 @@
 */
 @media #{$media_sm} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .margin-#{$side}-#{$i}px-sm {
+       .m-#{$side}-#{$i}px-sm {
             margin-#{$side}: $i * 1px;
         } 
       }
@@ -55,10 +55,10 @@
 */
 @media #{$media_md}{
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .margin-#{$side}-#{$i}px-md {
+       .m-#{$side}-#{$i}px-md {
             margin-#{$side}: $i * 1px;
         } 
       }
@@ -73,10 +73,10 @@
 */
 @media #{$media_lg}{
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .margin-#{$side}-#{$i}px-lg {
+       .m-#{$side}-#{$i}px-lg {
             margin-#{$side}: $i * 1px;
         } 
       }
@@ -90,10 +90,10 @@
 */
 @media #{$media_xl} {
   @for $i from $number_start through $number_end {
-    $i: $i*5;
+    //$i: $i*5;
     @if $i <= 100{
       @each $side in $position {
-       .margin-#{$side}-#{$i}px-xl {
+       .m-#{$side}-#{$i}px-xl {
             margin-#{$side}: $i * 1px;
         } 
       }
