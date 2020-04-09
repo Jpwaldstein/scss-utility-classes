@@ -1,5 +1,5 @@
 {
-  "name": "scss-utility-classes",
+  "name": "gaps.css",
   "version": "1.0.0",
   "description": "A small library of utility css classes",
   "main": "index.js",
